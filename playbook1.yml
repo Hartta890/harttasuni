@@ -1,0 +1,13 @@
+---
+name: create user
+hosts: all
+tasks:
+ - name: user creation
+   user:
+    name: hari
+    password: intelliqit
+    udi: 1232
+    home: home/buntu/hari
+    comment: "A normal user"
+    shell: /bin/bash
+...
